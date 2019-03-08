@@ -1,18 +1,17 @@
-#include "memory.h"
+#include "types.h"
 #include <iostream>
 
 int main(int argc, char** argv)
 {
-	CallStack cs = create_raw_memblock(16);
-	fill_memblock(cs, 0);
-	dump_memblock(cs);
+	kint8 val = 10;
 
-	cs_push_dw(cs, 0, 255);
-	dump_memblock(cs);
+	kint8 other_val = val;
+	kint8 last(0);
+	last = val;
 
-	std::cout << cs_pop_dw(cs, 0) << std::endl;
+	std::cout << "val: " << &val << "; other_val: " << &other_val << "; last: " << &last << std::endl;
 
-	free_memblock(cs);
+	std::cout << sizeof(kint8) << std::endl;
 
 	std::system("pause");
 

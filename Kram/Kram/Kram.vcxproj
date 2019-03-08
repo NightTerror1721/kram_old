@@ -120,16 +120,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="memory.cpp" />
-    <ClCompile Include="vm.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="instructions.h" />
-    <ClInclude Include="memory.h" />
-    <ClInclude Include="source_code.h" />
     <ClInclude Include="types.h" />
     <ClInclude Include="utils.h" />
-    <ClInclude Include="vm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
