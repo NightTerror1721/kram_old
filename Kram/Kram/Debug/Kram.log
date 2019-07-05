@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  directions.cpp
+  memory.cpp
+  register.cpp
+  Generando código...
   Kram.vcxproj -> D:\Kram\Kram\Debug\Kram.exe

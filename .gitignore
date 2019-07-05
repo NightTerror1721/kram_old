@@ -6,10 +6,15 @@
 *.lo
 *.o
 *.obj
+*.suo
+*.db
+*.opendb
 
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
+/.vs*
 
 # Fortran module files
 *.mod
@@ -20,7 +25,8 @@
 *.out
 *.app
 
-# Visual Studio dbs
+#sfml
 
-*.db
-*.opendb
+SFML-2.5.1/bin
+SFML-2.5.1/doc
+SFML-2.5.1/examples
